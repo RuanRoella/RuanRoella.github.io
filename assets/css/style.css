@@ -51,8 +51,6 @@ svg{
     fill: rgb(243, 237, 237);
 }
 
-
-
 .nav-link:hover{
     color: #e66635 !important;
 }
@@ -61,6 +59,9 @@ svg{
     fill: #e66635;
     transition: .3s;
 }
+
+.nav-link:active{ color: rgba(0, 0, 0, 0.075) !important; }
+.nav-link:active > svg{ fill: rgba(0, 0, 0, 0.075); transition: .3s; }
 
 .carousel-item img{
     border-radius: 20px !important;
